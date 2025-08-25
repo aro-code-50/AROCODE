@@ -96,13 +96,14 @@
 
   <div class="container">
     <h2>ARO CODE</h2>
-    <p style="color: gray; font-size: 14px;">هذه الصفحة لا تطلب كلمة مرور. يجب أن يكون الرقم مسجلاً مسبقًا من قبل المشرف.</p>
-    <p style="font-size: 14px; color: gray; margin-top: 0px;">هذا النظام خاص بالمستخدمين المسجلين مسبقًا. لا يتم جمع أو تخزين بيانات جديدة.</p>
+    <p style="color: gray; font-size: 11px;direction: rtl;">هذه الصفحة لا تطلب كلمة مرور. يجب أن يكون الرقم مسجلاً مسبقًا من قبل المشرف.</p>
+    <p style="font-size: 11px; color: gray; margin-top: 0px;direction: rtl;">هذا النظام خاص بالمستخدمين المسجلين مسبقًا. لا يتم جمع أو تخزين بيانات جديدة.</p>
+   
+    <p style="color: gray; font-size: 11px;direction: ltr;">This system is for pre-registered users. No new data is collected or stored.</p>
 
 
-    <input type="text" id="nInput" placeholder="أدخل رقم هاتفك (للمستخدمين المسجلين فقط)" onkeyup="checkEnter(event)">
-<small style="color: gray;">لن يتم قبول أي أرقام غير مسجلة مسبقًا من قبل المشرف.</small>
-<button onclick="cPhf()">تأكيد</button>
+    <input type="text" id="nInput" placeholder="Enter the number أدخل الرقم" onkeyup="checkEnter(event)">
+<button onclick="cPhf()">confirm <br> تأكيد</button>
 
     <div id="message"></div>
     <div id="loading" class="spinner-container" style="display: none;">
@@ -110,9 +111,7 @@
       <p>جاري التحميل...</p>
     </div>
 
-    <div id="privacyNotice" style="margin-top: 20px; font-size: 13px; color: gray; text-align: center;">
-      باستخدامك هذه الصفحة، أنت توافق على <a href="/privacy.html" target="_blank">سياسة الخصوصية</a>. لا يتم جمع أو تخزين أي بيانات جديدة.
-    </div>
+    
     
   </div>
 
